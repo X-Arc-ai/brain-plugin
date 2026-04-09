@@ -1,0 +1,15 @@
+{
+  "name": "x-arc",
+  "description": "X-Arc AI plugins for Claude Code",
+  "author": {
+    "name": "X-Arc AI",
+    "email": "contact@x-arc.ai",
+    "url": "https://x-arc.ai"
+  },
+  "plugins": {
+    "brain": {
+      "path": ".",
+      "description": "Knowledge graph for structured memory in Claude Code"
+    }
+  }
+}
