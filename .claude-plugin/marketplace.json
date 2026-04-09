@@ -10,7 +10,7 @@
     {
       "name": "brain",
       "description": "Knowledge graph for structured memory. Entities, relationships, signals. All local.",
-      "source": ".",
+      "source": "./plugins/brain",
       "category": "productivity",
       "homepage": "https://github.com/X-Arc-ai/brain-cli"
     }
