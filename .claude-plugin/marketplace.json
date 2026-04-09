@@ -1,15 +1,18 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "x-arc",
   "description": "X-Arc AI plugins for Claude Code",
-  "author": {
+  "owner": {
     "name": "X-Arc AI",
-    "email": "contact@x-arc.ai",
-    "url": "https://x-arc.ai"
+    "email": "contact@x-arc.ai"
   },
-  "plugins": {
-    "brain": {
-      "path": ".",
-      "description": "Knowledge graph for structured memory in Claude Code"
+  "plugins": [
+    {
+      "name": "brain",
+      "description": "Knowledge graph for structured memory. Entities, relationships, signals. All local.",
+      "source": ".",
+      "category": "productivity",
+      "homepage": "https://github.com/X-Arc-ai/brain-cli"
     }
-  }
+  ]
 }
