@@ -10,17 +10,11 @@ Give your Claude Code agent a persistent knowledge graph. Entities, relationship
 pip install xarc-brain
 ```
 
-### 2. Install the plugin
-
-```bash
-claude plugin install brain@x-arc
-```
-
-Or install directly from GitHub:
+### 2. Add the marketplace and install the plugin
 
 ```bash
 claude plugin marketplace add X-Arc-ai/brain-plugin
-claude plugin install brain
+claude plugin install brain@x-arc
 ```
 
 ### 3. Initialize in your project
@@ -30,7 +24,7 @@ cd your-project
 brain init --yes
 ```
 
-Or use the skill from within Claude Code: `/brain-init`
+Or use the `/brain-init` skill from within Claude Code.
 
 ## What the plugin provides
 
