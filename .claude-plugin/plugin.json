@@ -1,0 +1,22 @@
+{
+  "name": "brain",
+  "version": "0.2.3",
+  "description": "Knowledge graph for structured memory in Claude Code. Entities, relationships, signals. All local.",
+  "author": {
+    "name": "X-Arc AI",
+    "email": "contact@x-arc.ai",
+    "url": "https://x-arc.ai"
+  },
+  "homepage": "https://github.com/X-Arc-ai/brain-cli",
+  "repository": "https://github.com/X-Arc-ai/brain-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "knowledge-graph",
+    "memory",
+    "structured-memory",
+    "brain",
+    "signals",
+    "hygiene",
+    "cognitive-loop"
+  ]
+}
